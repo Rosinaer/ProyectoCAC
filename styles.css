@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #524e4e;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #524e4e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+/* Estilos específicos */
+#Presentacion {
+    background-color: #f0f0f0;
+}
+
+#Presentacion img {
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+#product-list .product {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#product-list .product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#product-list .product h3 {
+    margin-top: 0;
+}
+
+#product-list .product p {
+    margin-bottom: 10px;
+}
+
+#product-list .product button {
+    background-color: #524e4e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+
+#contact form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width:760px) {
+    #product-list .product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+}
